@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/59aec48e9f7456bae98b8609/1524087102020-FPO8K1R15HR88QCJB0BT/mural-image-bths-2.JPG?format=500w'); /* Background image */
+  background-size: cover;
+  font-family: 'Arial', sans-serif; /* Change font */
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.85); /* Background color with transparency */
+  max-width: 600px; /* Constrain the width for smaller devices */
+  margin: auto; 
+  padding: 20px; 
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+  font-weight: 800; /* Increased font weight */
+  color: #333; 
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 20px 0;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px; 
+}
+
+#increment-btn {
+  background: #ff5733; /* Changed to a vibrant orange-red */
+  color: white; 
+}
+
+#save-btn {
+  background: #33c3ff; /* Changed to a bright cyan */
+  color: white; 
+}
+
+h3 {
+  color: #555; 
+}
+
+p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #777; 
+}
+
+#saved-counts {
+  margin-top: 10px;
+  color: #444; 
+}
+
